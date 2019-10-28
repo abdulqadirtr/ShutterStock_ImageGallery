@@ -1,12 +1,12 @@
 # ShutterStock_ImageGallery
 
- ** Description for the problem.
+ **Description for the problem.**
  
- 1. ** Introduction: **
+ 1. **Introduction:**
 This is a Java android application for getting images from Shutterstock Web Api through the following Api link  https://api.shutterstock.com/v2/. The images are displayed in Recycleview and it can also be previewed.
 Note: In order to get the images through Shutterstock API we need to get the Token or secret key for authentication, which can be obtained through the following link. https://developers.shutterstock.com/documentation
 
- 2. ** FrameWork Used: **
+ 2. **FrameWork Used:**
 Dagger2
 Retrofi
 Picasso
