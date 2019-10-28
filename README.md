@@ -14,7 +14,7 @@ OkHttp
 RxAndroid
 Timber                          
 
-# Whether the solution focuses on mobile, back-end, front-end or if it's full-stack?
+**Whether the solution focuses on mobile, back-end, front-end or if it's full-stack?
 The application provides smooth solution for full-stack.
 
 **Backend Solution.
