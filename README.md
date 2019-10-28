@@ -15,15 +15,15 @@ RxAndroid
 Timber                          
 
 **Whether the solution focuses on mobile, back-end, front-end or if it's full-stack?
-The application provides smooth solution for full-stack.
+The application provides smooth solution for full-stack.**
 
 **Backend Solution.
- WebServices **
+ WebServices**
  
 For sending and receiving requests and uploading JSON from shutterstock API Retrofit and OkHttp frameworks is used in ShutterStock_ImageGallery application which make the application code easy and also relaible in terms of connection pooling, requesting, loading, threading, synchronization caching and network problems.
 
 
-**Wiring up different dependencies using Dagger2 **
+**Wiring up different dependencies using Dagger2**
 
 The Application is also using one of the most important Framework Dagger2 in order to wire up all the  Dependencies or frameworks for better performance. These are the ShutterStock_ImageGallery app beneafiths by applying  Dagger2 framework.
  Simple access to shared implementations.
@@ -42,9 +42,9 @@ The application is managing threads and avoid using main threads for different t
                                   
                                   
 
-**The reasoning behind your technical choices, including architectural. ?
+**The reasoning behind your technical choices, including architectural.** ?
 
-**For UI **
+**For UI**
  
 For the smooth UI and View i used RxJava and RxAndroid to make the  display smoot without hanging or delays because normal if we are running different activities or framgments on main threads, it cause crash or delays in the display because of threads mangement or main thread is not free. these frameworks handles threads and work for different task with different threads and free up the main thread.
 
@@ -62,7 +62,7 @@ To solve this problem i used Dagger2 which combined all the dependencie in one M
  This is one of the good reasons I used Dagger 2 for dependency injection. If the dependency was injected to the presenter without view’s intervention, the code becomes more modular and loosely connected which helps in easily changing one component without affecting another.
  
  
-**Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project                  
+**Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.**                 
 .**
 
 
