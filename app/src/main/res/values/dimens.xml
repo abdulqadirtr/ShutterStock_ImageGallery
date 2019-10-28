@@ -1,0 +1,3 @@
+<resources>
+  <dimen name="images_cell_spacing">6dp</dimen>
+</resources>

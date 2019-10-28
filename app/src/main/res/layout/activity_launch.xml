@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+  <data class="LaunchActivityBinding">
+    <variable
+        name="viewModel"
+        type="app.easylink.shuterstockimages.appfeature.launch.LaunchViewModel"
+        />
+  </data>
+
+  <FrameLayout
+      android:id="@+id/activity_launch"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/design_default_color_primary_dark"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+      <ImageView
+          android:id="@+id/logo_container"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
+          android:layout_gravity="center"
+          android:src="@mipmap/ic_launcher"
+          />
+
+      <TextView
+          android:id="@+id/app_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="48dp"
+          android:alpha="0"
+          android:text="@string/app_name"
+          android:textColor="@android:color/white"
+          android:textSize="24sp"
+          android:textStyle="bold"
+          />
+
+      <ProgressBar
+          android:id="@+id/progress_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@android:style/Widget.ProgressBar.Small"
+          android:layout_marginTop="32dp"
+          android:indeterminate="true"
+          android:theme="@style/LightAccent"
+          android:visibility="@{viewModel.progressBarVisibility}"
+          app:theme="@style/LightAccent"
+          />
+    </LinearLayout>
+  </FrameLayout>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+  <data class="ImagesActivityBinding">
+    <variable
+        name="viewModel"
+        type="app.easylink.shuterstockimages.appfeature.images.ImagesViewModel"
+        />
+  </data>
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/images_list"
+      android:layout_width="match_parent"
+      android:background="@android:color/black"
+      android:layout_height="match_parent"
+      android:scrollbars="vertical"
+      />
+</layout>
