@@ -65,11 +65,6 @@ To solve this problem i used Dagger2 which combined all the dependencie in one M
 **Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.**                 
 .**
 
-
- **Language:** 
-I personally prefer Kotlin for Android application developement as it's more compatible for Android.
-Unfortunatly i was not able to do this task in Kotlin,which i missed because of the reason lack of time and the frameworks like dagger2 which i never used before so that's why i chose Java.
-
 **Things which i missed and want to add:**
  I would like to add downloading and storage features for Images in this task .
  I would avoid to use Recyclerview as it's more complicated.
